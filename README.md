@@ -1,3 +1,21 @@
+# Yun Developer Notes:
+
+09/04/2025
+- Beginning development of the application
+- Clean slate, clean app.jsx
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
