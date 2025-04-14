@@ -6,7 +6,7 @@ function HomePage() {
     <div>
       <NavBarMain />
       <h1>Welcome</h1>
-      <p>Paragraph text here.</p>
+      <p>test p</p>
         <ButtonLogin onClick={() => console.log('Login clicked!')} />
         
       <p>Button above</p>
