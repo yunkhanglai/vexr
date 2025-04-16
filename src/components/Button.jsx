@@ -1,9 +1,9 @@
-function Button({ onClickFunction, text = 'DefaultButton' }) {
+function Button({ onClick, buttonText = 'DefaultButton' }) {
     return (
       <button
-        onClick={ onClickFunction }
+        onClick={ onClick }
       >
-        {text}
+      { buttonText }
       </button>
     );
   }

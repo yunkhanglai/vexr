@@ -1,15 +1,15 @@
-import NavBarMain from './NavBarMain';
-import ButtonLogin from '../components/ButtonLogin';
+import NavBar from './NavBar';
+
+import Button from '../components/Button';
+import SectionHero from '../sections/SectionHero';
 
 function HomePage() {
   return (
     <div>
-      <NavBarMain />
-      <h1>Welcome</h1>
-      <p>test p</p>
-        <ButtonLogin onClick={() => console.log('Login clicked!')} />
-        
-      <p>Button above</p>
+      <NavBar />
+      <SectionHero />
+      <Button onClick = { () => alert("TEST") } />
+
     </div>
   );
 }

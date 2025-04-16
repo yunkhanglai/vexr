@@ -16,7 +16,7 @@ function NavBar(props) {
           </div>
 
           <div className="navbar-right">
-            <Button onClickFunction={() => alert("Hi")} text="Click me" />
+            <Button onClick={() => alert("Testing login Button")} buttonText="Login" />
           </div>
 
         </div>
