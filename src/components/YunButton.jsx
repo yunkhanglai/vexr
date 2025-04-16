@@ -1,4 +1,5 @@
 // Yun's Template Button / react component (precomp)
+// Use this only for testing features and leaening React
 
 function YunButton(props){
     return (
