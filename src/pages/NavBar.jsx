@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 
-function NavBar(props) {
+function NavBar({ loginButtonClick }) {
     return (
       <>
         <div className="navbar">
@@ -16,7 +16,7 @@ function NavBar(props) {
           </div>
 
           <div className="navbar-right">
-            <Button onClick={() => navigate('/login') } buttonText="Login" />
+            <Button onClick={ loginButtonClick } buttonText="Login" />
           </div>
 
         </div>

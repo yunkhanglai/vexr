@@ -7,13 +7,16 @@ import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
   const navigate = useNavigate();
+  const LoginClick = () => {
+    navigate('/login');
+  };
+
 
   return (
     <div>
-      <NavBar />
+      <NavBar loginButtonClick={ LoginClick } />
       <SectionHero />
       <Button onClick = { () => navigate('/login') } />
-
     </div>
   );
 }
