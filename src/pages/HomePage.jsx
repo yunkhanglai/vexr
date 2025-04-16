@@ -1,10 +1,24 @@
 import NavBar from './NavBar';
-import ButtonLogin from '../components/ButtonLogin';
+import Button from '../components/Button';
+import YunButton from '../components/YunButton';
+
+
 
 function HomePage() {
   return (
     <div>
-      <NavBar />
+      <NavBar> </NavBar>
+
+
+
+
+      <YunButton 
+        name="IGNORAMUS!" 
+        secondproperty="KAJSLKDJALSD" 
+        lalala="17882713" 
+      />
+
+
 
       <h1>Main heading (largest)</h1>
       <h2>Subheading</h2>
@@ -20,7 +34,7 @@ function HomePage() {
       <strong>Bold text</strong><br/>
       <em>Italic text</em><br/>
 
-      <ButtonLogin onClick={() => console.log('Login clicked!')} />
+      <Button onClick={() => console.log('Login clicked!')} />
 
 
     </div>
