@@ -16,7 +16,7 @@ function NavBar(props) {
           </div>
 
           <div className="navbar-right">
-            <Button onClick={() => alert("Testing login Button")} buttonText="Login" />
+            <Button onClick={() => navigate('/login') } buttonText="Login" />
           </div>
 
         </div>
