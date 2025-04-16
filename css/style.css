@@ -1,3 +1,4 @@
+/* BASE THEME DEV */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -38,6 +39,17 @@ h1 {
     background-color: #f9f9f9;
   }
 }
+/* BASE THEME DEV */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -45,7 +57,6 @@ h1 {
 
 
 /* NAV BAR STYLING TEMPORARY */
-
 
 .navbar {
   width: 100%;
@@ -84,3 +95,8 @@ h1 {
   cursor: pointer;
   font-weight: bold;
 }
+/* NAV BAR STYLING TEMPORARY */
+
+
+
+
